@@ -1,0 +1,54 @@
+--DataBase Connection:
+--server:'localhost'
+--username:'root'
+--password:''
+--Database: 'stu'
+
+
+--DataBase creation:
+--DataBase name:"stu"
+-- --------------------------------------------------------
+
+--Table Creation:
+--Table name:'tt'
+-- Table structure for table `tt`
+
+CREATE TABLE `tt` (
+  `id` int(100) NOT NULL,AutoIncrement,
+  `name` varchar(60) NOT NULL,
+  `email` varchar(70) NOT NULL,
+  `age` varchar(10) NOT NULL,
+  `date` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Table is create like this:
+------------------------------------------
+|id  |  name  |  email  |  age  |  date  |
+------------------------------------------
+
+-- Dumping data for table `tt`
+
+INSERT INTO `tt`(`id`, `name`, `email`, `age`, `date`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
+
+--Data is incerted in the table as follows:
+
+---------------------------------------------------------------------------------
+|id  |  name           |     email                      |   age  |   date       |
+---------------------------------------------------------------------------------
+  1    Bhavya              thallaraju20@gmail.com           22       2000-11-22
+
+
+-- Indexes for dumped tables
+
+
+-- Indexes for table `tt`
+--
+ALTER TABLE `tt`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tt`
